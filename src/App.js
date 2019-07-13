@@ -21,11 +21,12 @@ class App extends Component {
           </div>
           <section className="results--section">
               <div className="container">
-                  <h1>PusherCoins provides realtime price information about<br></br> BTC, ETH and LTC.</h1>
+                  <h1>Welcome to PusherCoins.</h1>
+                  <h1>We provide realtime price information about<br></br> BTC, ETH and LTC</h1>
               </div>
               <div className="results--section__inner">
                   <Today />
-                  {/* <History /> */}
+                  <History />
               </div>
           </section>
       </div>
